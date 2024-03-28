@@ -20,5 +20,6 @@ venv/
 *.tmp
 
 .venv
+.env
 
 configuration.ini
