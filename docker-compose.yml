@@ -1,0 +1,12 @@
+version: '3.10'
+
+services:
+  pyexactitude:
+    container_name: pyexactitude
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:8000"
